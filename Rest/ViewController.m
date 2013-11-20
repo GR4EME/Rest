@@ -27,7 +27,7 @@
         
         NSDictionary *bannerDictionary = [MTLJSONAdapter JSONDictionaryFromModel:banner];
         NSLog(@"bannerDictionary: %@", bannerDictionary);
-        NSLog(@"bannerDictionary image: %@", [bannerDictionary objectForKey:@"image"]);
+        NSLog(@"bannerDictionary url: %@", [bannerDictionary objectForKey:@"url"]);
         
         //load from file
         //NSDictionary* object = [NSDictionary dictionaryWithContentsOfFile:filePath];
